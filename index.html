@@ -490,6 +490,14 @@
       opacity: 1
     }
 
+    .slot img {
+      height: 80px;
+      width: auto;
+      max-width: 200px;
+      object-fit: contain;
+    }
+    .slot:not(:has(img)) { }
+
     /* work */
     .wh {
       display: flex;
@@ -1206,7 +1214,7 @@
       #pv {
         display: none
       }
-    }
+    }f
 
     @media(prefers-reduced-motion:reduce) {
       * {
