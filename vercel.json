@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "resiqo-kappa.vercel.app" }],
+      "destination": "https://riseqo.vercel.app/$1",
+      "permanent": true
+    }
+  ]
+}
